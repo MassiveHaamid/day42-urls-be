@@ -34,7 +34,7 @@ const shortenURL = async (req, res) => {
 
     // Modify the response for clarity
     res.status(201).json({
-      shortURL: `${BEURL}/${shortCode}`, // Update to match your URL structure
+      shortURL: `${FEURL}/${shortCode}`, // Update to match your URL structure
       message: 'URL shortened successfully.',
     });
   } catch (error) {
