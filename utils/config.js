@@ -2,10 +2,10 @@ require("dotenv").config();
 
 const URL = process.env.MONGODB_URI;
 const PORT = process.env.PORT;
-const EMAIL_ADDRESS = process.env.EMAIL_ADDRESS;
-const EMAIL_PASSWORD = process.env.EMAIL_PASSWORD;
-const SECRET = process.env.secret;
-const BEURL = process.env.BEURL;
+const EMAIL_ADDRESS = process.env.MAILER_EMAIL;
+const EMAIL_PASSWORD = process.env.MAILER_PASSWORD;
+const SECRET = process.env.JWT_SECRET;
+const BEURL = "https://urls-bae.onrender.com/"
 const FEURL = "http://localhost:5173";
 
 module.exports = {
