@@ -1,0 +1,37 @@
+// Users Collection
+
+{
+  "_id": "user_id",
+  "username": "user@example.com",
+  "password": "hashed_password",
+  "firstName": "John",
+  "lastName": "Doe",
+  "isActive": true,
+  "activationToken": "activation_token",
+  "createdAt": "timestamp",
+  "updatedAt": "timestamp"
+}
+------------------------------------------------------------------------------------------------------------------
+// URLs Collection
+
+{
+  "_id": "url_id",
+  "originalUrl": "https://www.example.com/long-url",
+  "shortUrl": "https://short.url/abc123",
+  "clickCount": 0,
+  "createdAt": "timestamp",
+  "updatedAt": "timestamp",
+  "userId": "user_id"
+}
+------------------------------------------------------------------------------------------------------------------
+// PasswordResetTokens Collection
+
+{
+  "_id": "token_id",
+  "userId": "user_id",
+  "token": "reset_token",
+  "createdAt": "timestamp",
+  "updatedAt": "timestamp",
+  "isUsed": false
+}
+------------------------------------------------------------------------------------------------------------------
