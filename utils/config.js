@@ -5,8 +5,8 @@ const PORT = process.env.PORT;
 const EMAIL_ADDRESS = process.env.MAILER_EMAIL;
 const EMAIL_PASSWORD = process.env.MAILER_PASSWORD;
 const SECRET = process.env.JWT_SECRET;
-const BEURL = "https://urls-bae.onrender.com/"
-const FEURL = "http://localhost:5173";
+const BEURL = "https://urls-bae.onrender.com";
+const FEURL = "https://day42-urls-fe.vercel.app";
 
 module.exports = {
   URL,
