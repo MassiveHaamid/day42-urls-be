@@ -1,5 +1,5 @@
 const express = require("express");
-const { SECRET, BEURL } = require("../utils/config.js");
+const { FEURL } = require("../utils/config.js");
 const User = require("../models/usersModel.js");
 const Url = require("../models/urlModel.js");
 const shortid = require("shortid");
